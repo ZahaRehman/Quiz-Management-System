@@ -1,0 +1,119 @@
+{
+  "quizzes": [
+    {
+      "id": "1",
+      "quiz_id": 2,
+      "user_id": 2,
+      "marks_obtained": 1,
+      "status": "assigned",
+      "attempt": 0,
+      "start_time": "2024-09-26 11:29:16",
+      "end_time": "2024-09-27 10:35:13",
+      "deleted_at": null,
+      "created_at": "2024-09-26T11:29:16.000000Z",
+      "updated_at": "2024-09-27T10:35:13.000000Z",
+      "quiz": {
+        "id": 2,
+        "quiz_name": "Laravel Quiz 2",
+        "duration": 10,
+        "total_marks": 2
+      }
+    },
+    {
+      "id": "5",
+      "quiz_id": 5,
+      "user_id": 2,
+      "marks_obtained": null,
+      "status": "assigned",
+      "attempt": 0,
+      "start_time": "2024-09-27 10:37:03",
+      "end_time": null,
+      "deleted_at": null,
+      "created_at": "2024-09-27T10:37:03.000000Z",
+      "updated_at": "2024-09-27T10:37:03.000000Z",
+      "quiz": {
+        "id": 5,
+        "quiz_name": "2 options quiz",
+        "duration": 12,
+        "total_marks": 21
+      }
+    }
+  ],
+  "questions": {
+    "2": [
+      {
+        "id": 3,
+        "question": "What do you think is Laravel?",
+        "options": [
+          "Framework",
+          "Library",
+          "Plugin",
+          "Language"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Who is the creator of Laravel?",
+        "options": [
+          "Taylor Otwell",
+          "Jeffrey Way",
+          "Adam Wathan",
+          "Matt Stauffer"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "id": 6,
+        "question": "What is Vue.js?",
+        "options": [
+          "Framework",
+          "Plugin",
+          "Language",
+          "Library"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Who created Vue.js?",
+        "options": [
+          "Evan You",
+          "Taylor Otwell",
+          "Sarah Drasner",
+          "Chris Fritz"
+        ]
+      }
+    ]
+  },
+  "submissions": [
+    {
+      "quiz_id": 2,
+      "options": {
+        "3": "Framework",
+        "4": "Taylor Otwell"
+      },
+      "id": "91d2"
+    },
+    {
+      "id": "a4d1",
+      "quiz_id": "2",
+      "options": {
+        "3": "Language",
+        "4": "Adam Wathan"
+      }
+    },
+    {
+      "id": "d198",
+      "quiz_id": "2",
+      "options": {}
+    },
+    {
+      "id": "b99e",
+      "quiz_id": "2",
+      "options": {
+        "3": "Library",
+        "4": "Adam Wathan"
+      }
+    }
+  ]
+}
